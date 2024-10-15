@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+
+    <link rel="stylesheet" href="exam.css">
+
+<div class="signup-container">
+    <form class="signup-form">
+    <h2>Sign Up</h2>
+    <label for="full-name">Full Name</label>
+    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <label for="reason">How did you hear about us?</label>
+    <select id="reason" name="reason">
+    <option value="friend">A Friend</option>
+    <option value="social-media">Internet</option>
+    </select>
+    <label>Subscription Type</label>
+    <div class="subscription">
+    <input type="radio" id="basic" name="subscription" value="basic">
+    <label for="basic">Basic</label>
+    <input type="radio" id="premium" name="subscription" value="premium">
+    <label for="premium">Premium</label>
+    </div> 
+    <div class="options">
+    <input type="checkbox" id="newsletter" name="newsletter">
+    <label for="newsletter">Subscribe to Newsletter</label>
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">Agree to Terms and Conditions</label>
+    </div>
+    <button type="submit">Sign Up</button>
+    </form>
+    </div>
+    </body>
+    </html>
